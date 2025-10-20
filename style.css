@@ -136,7 +136,6 @@ h4 {
 .about .about-image {
     height: auto;
     width: 500px;
-    max-width: 100%;
     display: block; 
     object-fit: cover; 
     border-radius: 5px; 
@@ -384,3 +383,4 @@ nav .nav-links { display: flex; gap: 8px; align-items: center; }
 /* form message */
 
 .form-msg { color: #ffd; margin-top: 8px; font-size: 14px; }
+
