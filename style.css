@@ -133,12 +133,21 @@ h4 {
     background-color: #191919;
 }
 
-.about .about-image {
-    height: 100px;
+.about .about-video {
+    height: auto;
     width: 500px;
     display: block; 
     object-fit: cover; 
-    border-radius: 20px; 
+    border-radius: 5px; 
+}
+
+.about .about-image {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* optional if you set a fixed height */
+    border-radius: 5px;
 }
 
 .about-text {
@@ -381,9 +390,4 @@ nav .nav-links { display: flex; gap: 8px; align-items: center; }
 }
 
 /* form message */
-
 .form-msg { color: #ffd; margin-top: 8px; font-size: 14px; }
-
-
-
-
