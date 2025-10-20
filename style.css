@@ -134,11 +134,11 @@ h4 {
 }
 
 .about .about-image {
-    height: auto;
+    height: 500px;
     width: 500px;
     display: block; 
     object-fit: cover; 
-    border-radius: 5px; 
+    border-radius: 20px; 
 }
 
 .about-text {
@@ -383,4 +383,5 @@ nav .nav-links { display: flex; gap: 8px; align-items: center; }
 /* form message */
 
 .form-msg { color: #ffd; margin-top: 8px; font-size: 14px; }
+
 
